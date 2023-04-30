@@ -2,7 +2,7 @@
 ## Overview:
 This study presents a comprehensive network analysis of the S\&P 500 stocks from 2018 to 2022, with the aim of visualizing stock connectivity and its evolution over
 time, particularly during the COVID-19 pandemic. Our methodology involved multiple steps, starting with the data collection of S\&P 500 stock prices, detrending the data by computing log returns, calculation of correlation matrices for multiple windows, and finally buliding a network using the Winner-Take-All (WTA) method, as
-proposed in the referenced {https://www.researchgate.net/publication/222825530_A_network_perspective_of_the_stock_market}{paper}.
+proposed in the referenced paper{https://www.researchgate.net/publication/222825530_A_network_perspective_of_the_stock_market}.
 
 Leveraging the WTA method, we were able to construct an accurate and robust network that captured the connections among stocks effectively. The network analysis revealed key findings on degree distribution, scale-free properties, the average degree of the network over time, high-degree stocks in the network, and stocks with high betweenness centrality. Furthermore, we identified communities detected over time and measured the Jaccard similarity of these communities with sector codes, which allowed us to assess the extent to which the detected communities corresponded to real-world industry sectors. Visualizations of the network and its evolution provided valuable insights into stock market dynamics and stock interrelationships during the studied period.
 
