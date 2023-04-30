@@ -57,20 +57,23 @@ We examined the network’s high-degree stocks at different windows to identify 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/29313860/235372261-9b0fff8c-be71-47ca-8928-55005d683598.png">
 </p>
+
 ### High betweenness centrality stocks: 
 We looked at stocks with high betweeness Centrality in the network at different windows to find important stocks that will be good price forecasters due to their network location. Financial stocks still lead most times.
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/29313860/235372377-c8d0e597-8336-4a18-a0d6-1f67de93080f.png">
 </p>
+
 ### Communities throughout time: 
 We countedcommunities over time. The market is dynamic,forming new stock communities in each window that may die or survive.
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/29313860/235372387-f870c376-9bf3-497c-9d9e-52c8dbb160f9.png">
 </p>
+
 ### Jaccard similarity: 
 We calculated the Jaccard similarity coefficient of the communities found with the SIC code of these SP500 stocks in each time window with the stock list categorised by industry code. We classed a community as that SIC code if its Jaccard coefficient is greater than 0.25 with the group of stocks classified by the SIC code. Finance, real estate, utilities, energy, telecommunications, and industrial finance are well correlated and trade in groups over different periods, while Information Technology, Materials, Consumer Staples, Consumer Discretionary, and Health Care don’t.
 <p align="center">
-  <img width="300" src="https://user-images.githubusercontent.com/29313860/235372393-a1acc273-823c-4eb3-b254-008553f4d71b.png">
+  <img width="500" src="https://user-images.githubusercontent.com/29313860/235372393-a1acc273-823c-4eb3-b254-008553f4d71b.png">
 </p>
 
 ## Network Evolution Visualisations:
